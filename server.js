@@ -90,5 +90,5 @@ let express=require("express"),
 // port
 let port=process.env.port||1996;
 server.listen(port,()=>{
-    console.log("Listening on port 1996");
+    console.log("Listening on port"+port);
 });
